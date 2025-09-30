@@ -31,7 +31,7 @@ ophys_module = nwbfile.create_processing_module(
     description="optical physiology processed data",
 )
 # Create the segmentation object and define the configuration properties
-# The properties that can be defined are listed at spec/ndx-EXTRACT.extensions.yaml
+# The properties that can be defined are listed at spec/ndx-extract.extensions.yaml
 image_segmentation = EXTRACTSegmentation(
             name="ImageSegmentation",
             version="1.1.0",
